@@ -17,13 +17,20 @@ header {
     color: #ffffff;
 }
 
-header h1 {
+h1 {
     display: inline-block;
     font-size: 48px;
 }
-
-header h1 .seo {
-    color: #d9dcd6;
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px; 
+}
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+h4 {
+    font-size: 20px;
 }
 
 nav {
@@ -52,7 +59,19 @@ p {
     font-size: 16px;
 }
 
-figure {
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* Class Selector Styling */
+.seo {
+    color: #d9dcd6;
+}
+
+.main-background {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -61,33 +80,16 @@ figure {
     background-position: center;
 }
 
-main {
+.three-pillars {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-section img {
+.three-pillars img {
     max-height: 200px;
 }
 
-section h2 {
-    margin-bottom: 20px;
-    font-size: 36px; 
-}
-
-footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-footer h4 {
-    font-size: 20px;
-}
-
-/* Class Selector Styling */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -114,11 +116,6 @@ footer h4 {
     color: #ffffff;
 }
 
-.individual-benefit h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
 .individual-benefit img {
     display: block;
     margin: 10px auto;
@@ -126,7 +123,7 @@ footer h4 {
 }
 
 /* ID Selector Styling */
-#search-engine-optimization, #online-reputation-management, #social-media-marketing{
+#search-engine-optimization, #online-reputation-management, #social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
