@@ -59,6 +59,15 @@ p {
     font-size: 16px;
 }
 
+article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
 footer {
     padding: 30px;
     clear: both;
@@ -122,14 +131,16 @@ footer {
     max-width: 150px;
 }
 
-/* ID Selector Styling */
-#search-engine-optimization, #online-reputation-management, #social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+/*  Testing some things to improve accessibilty for smaller screens (Not required for this homework)
+@media screen and (max-width: 1064px) {
+    #search-engine-optimization, #online-reputation-management, #social-media-marketing {
+        height: auto;
+    }
+    .float-left, .float-right {
+        float: none;
+    }
+    .three-pillars {
+        text-align: center;
+    }
 }
-
-
+*/
