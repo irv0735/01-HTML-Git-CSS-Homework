@@ -14,14 +14,16 @@ Updates made:
 HTML - 
 * Updated the Title to "Horiseon"
 * Changed the first div to a "header" element
-* Added a link to the H1 tag to reload the page when clicked
+* Added a link to the H1 element to reload the page when clicked
 * Placed the navigation elements in a "nav" element instead of div
 * Corrected the "social media marketing" to have a functional link similar to the other nav bar items
-* Placed the background image in a figure tag with class "main-background" to apply the style to
+* Placed the background image in a section element with class "main-background" to apply the style to
 * Created a "main" element and moved the content from the div into it
 * Created sections for the three-pillars and benefits
 * Changed the div at the end to a footer element
 * Changed footer to H4 and adjusted properties in CSS to maintain appearance from using the H2 out of order
 * Added "alt" tags to all images
-* Refactored CSS to eliminated redundancy and organize by element, class, ID
+
+CSS - 
+* Refactored CSS to eliminate redundancy and organize by element, class, ID
 
