@@ -8,8 +8,7 @@ Homework assignment for HTML-Git-CSS
 * Finally, accessibility was added for better SEO performance and to make the site more user friendly for those that need the accessbility help. 
 
 
-
-Updates made: 
+General Updates made: 
 
 HTML - 
 * Updated the Title to "Horiseon"
@@ -27,3 +26,10 @@ HTML -
 CSS - 
 * Refactored CSS to eliminate redundancy and organize by element, class, ID
 
+Screenshot of finished site: 
+![Alt text](/assets/Finalscreenshot.png)
+
+
+Links: 
+repo - https://github.com/irv0735/01-HTML-Git-CSS-Homework
+"live site" - https://irv0735.github.io/01-HTML-Git-CSS-Homework/
